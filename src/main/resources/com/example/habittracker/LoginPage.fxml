@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="608.0" prefWidth="766.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.habittracker.LoginController">
+   <left>
+      <AnchorPane prefHeight="608.0" prefWidth="376.0" style="-fx-background-color: D2DAFF;" BorderPane.alignment="CENTER">
+         <children>
+            <Circle fill="#1f93ff00" layoutX="152.0" layoutY="242.0" radius="107.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="2.0">
+               <effect>
+                  <Blend />
+               </effect>
+            </Circle>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="1.0" layoutY="201.0" prefHeight="82.0" prefWidth="306.0" text="Habit Tracker">
+               <font>
+                  <Font name="Rockwell" size="32.0" />
+               </font>
+               <effect>
+                  <InnerShadow />
+               </effect>
+            </Label>
+            <Label fx:id="LoginLabel" alignment="CENTER" layoutX="25.0" layoutY="465.0" prefHeight="50.0" prefWidth="270.0">
+               <font>
+                  <Font name="Rockwell" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <right>
+      <AnchorPane prefHeight="608.0" prefWidth="392.0" style="-fx-background-color: EEF1FF;" BorderPane.alignment="CENTER">
+         <children>
+            <Label alignment="CENTER" layoutX="35.0" layoutY="232.0" prefHeight="18.0" prefWidth="270.0" text="Password">
+               <font>
+                  <Font name="Rockwell" size="30.0" />
+               </font>
+            </Label>
+            <Label layoutX="87.0" layoutY="110.0" text="User Name">
+               <font>
+                  <Font name="Rockwell" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="LoginButton" layoutX="40.0" layoutY="374.0" mnemonicParsing="false" onAction="#LoginButtonAction" prefHeight="26.0" prefWidth="254.0" text="Login">
+               <font>
+                  <Font name="Rockwell" size="20.0" />
+               </font>
+            </Button>
+            <TextField fx:id="UserNameTextField" layoutX="29.0" layoutY="165.0" prefHeight="34.0" prefWidth="287.0" promptText="Username" />
+            <Button fx:id="ExitButton" layoutX="38.0" layoutY="451.0" mnemonicParsing="false" onAction="#ExitButtonAction" prefHeight="37.0" prefWidth="257.0" text="Exit">
+               <font>
+                  <Font name="Rockwell" size="20.0" />
+               </font>
+            </Button>
+            <PasswordField fx:id="PasswordPasswordField" layoutX="31.0" layoutY="298.0" prefHeight="39.0" prefWidth="283.0" promptText="Password" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>

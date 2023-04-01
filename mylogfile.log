@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-04-01T13:31:48.636598300Z</date>
+  <millis>1680355908636</millis>
+  <nanos>598300</nanos>
+  <sequence>2</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user1 | HabitName: walking | DaysDone: 100 | DaysMissed: 0 | CurrentStreak: 100 | LongestStreak: 100 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.638599200Z</date>
+  <millis>1680355908638</millis>
+  <nanos>599200</nanos>
+  <sequence>3</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user2 | HabitName: coding | DaysDone: 100 | DaysMissed: 0 | CurrentStreak: 100 | LongestStreak: 100 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.638599200Z</date>
+  <millis>1680355908638</millis>
+  <nanos>599200</nanos>
+  <sequence>4</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user1 | HabitName: reading | DaysDone: 100 | DaysMissed: 0 | CurrentStreak: 100 | LongestStreak: 100 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.639599600Z</date>
+  <millis>1680355908639</millis>
+  <nanos>599600</nanos>
+  <sequence>5</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user3 | HabitName: gardening | DaysDone: 100 | DaysMissed: 0 | CurrentStreak: 100 | LongestStreak: 100 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.639599600Z</date>
+  <millis>1680355908639</millis>
+  <nanos>599600</nanos>
+  <sequence>6</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user3 | HabitName: cooking | DaysDone: 90 | DaysMissed: 2 | CurrentStreak: 12 | LongestStreak: 59 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.639599600Z</date>
+  <millis>1680355908639</millis>
+  <nanos>599600</nanos>
+  <sequence>7</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user4 | HabitName: jogging | DaysDone: 200 | DaysMissed: 3 | CurrentStreak: 44 | LongestStreak: 45 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.639599600Z</date>
+  <millis>1680355908639</millis>
+  <nanos>599600</nanos>
+  <sequence>8</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user5 | HabitName: saving | DaysDone: 100 | DaysMissed: 1 | CurrentStreak: 10 | LongestStreak: 87 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.640599500Z</date>
+  <millis>1680355908640</millis>
+  <nanos>599500</nanos>
+  <sequence>9</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user6 | HabitName: journaling | DaysDone: 200 | DaysMissed: 0 | CurrentStreak: 200 | LongestStreak: 200 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.640599500Z</date>
+  <millis>1680355908640</millis>
+  <nanos>599500</nanos>
+  <sequence>10</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user4 | HabitName: yoga | DaysDone: 90 | DaysMissed: 2 | CurrentStreak: 12 | LongestStreak: 59 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.640599500Z</date>
+  <millis>1680355908640</millis>
+  <nanos>599500</nanos>
+  <sequence>11</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user4 | HabitName: cycling | DaysDone: 200 | DaysMissed: 3 | CurrentStreak: 44 | LongestStreak: 45 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.641599700Z</date>
+  <millis>1680355908641</millis>
+  <nanos>599700</nanos>
+  <sequence>12</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user3 | HabitName: sketching | DaysDone: 100 | DaysMissed: 1 | CurrentStreak: 10 | LongestStreak: 87 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.641599700Z</date>
+  <millis>1680355908641</millis>
+  <nanos>599700</nanos>
+  <sequence>13</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user1 | HabitName: studying | DaysDone: 200 | DaysMissed: 0 | CurrentStreak: 200 | LongestStreak: 200 | </message>
+</record>
+<record>
+  <date>2023-04-01T13:31:48.641599700Z</date>
+  <millis>1680355908641</millis>
+  <nanos>599700</nanos>
+  <sequence>14</sequence>
+  <logger>MyLogger</logger>
+  <level>INFO</level>
+  <class>com.example.habittracker.MyLogger</class>
+  <method>main</method>
+  <thread>19</thread>
+  <message>UserName: user5 | HabitName: cleaning | DaysDone: 200 | DaysMissed: 0 | CurrentStreak: 200 | LongestStreak: 200 | </message>
+</record>
+</log>
