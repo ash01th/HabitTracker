@@ -18,7 +18,7 @@ import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-public class LoginController {
+public class UserLoginController{
     @FXML
     private TextField UserNameTextField;
     @FXML
@@ -38,11 +38,14 @@ public class LoginController {
         stage.close();
     }
     public void  LoginButtonAction(ActionEvent e)throws Exception{
+        NameHolder n1= new NameHolder();
+        n1.UserName=UserNameTextField.getText();
+        System.out.println(n1.UserName);
         if (UserNameTextField.getText().isBlank()==false&& PasswordPasswordField.getText().isBlank()==false) {
-            System.out.println("in admin");
+            System.out.println("In userlogin");
             ValidateLogin();
             if(ValidateLogin()){
-                Parent root = FXMLLoader.load(getClass().getResource("hello-view.fxml"));
+                Parent root = FXMLLoader.load(getClass().getResource("UserView.fxml"));
                 stage = (Stage)((Node)e.getSource()).getScene().getWindow();
                 scene = new Scene(root);
                 stage.setScene(scene);
@@ -58,7 +61,7 @@ public class LoginController {
         boolean flag=false;
         DataBaseConnection connectNow =new DataBaseConnection();
         Connection connectDB=connectNow.getDBConnection();
-        String VerifyLogin="SELECT count(1) FROM users  WHERE userName='"+UserNameTextField.getText()+"'and password='"+PasswordPasswordField.getText()+"'and Class='A'";
+        String VerifyLogin="SELECT count(1) FROM users  WHERE userName='"+UserNameTextField.getText()+"'and password='"+PasswordPasswordField.getText()+"' and Class='U';";
         try{
             Statement statement=connectDB.createStatement();
             ResultSet queryResult=statement.executeQuery(VerifyLogin);
